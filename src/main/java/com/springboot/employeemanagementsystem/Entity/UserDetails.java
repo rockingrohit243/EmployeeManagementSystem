@@ -18,8 +18,8 @@ import javax.persistence.UniqueConstraint;
 import javax.persistence.JoinColumn;
 @Data
 @Entity
-@Table(name =  "user", uniqueConstraints = @UniqueConstraint(columnNames = "email"))
-public class User {
+@Table(name =  "userDetails", uniqueConstraints = @UniqueConstraint(columnNames = "email"))
+public class UserDetails {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
